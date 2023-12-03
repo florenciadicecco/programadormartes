@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+</head>
+
+<body>
+    <script>
+        distancia = parseInt(prompt('Ingrese lejania en metros a su trabajo:', ''));
+
+        if (distancia >= 0 || distancia == 1000) { 
+            document.write('su medio de transporte es a PIE.');
+        } else if (distancia == 1001 || distancia == 10000) {
+            document.write('Su medio de transporte es en BICICLETA.');
+        } else if (distancia == 10001 || distancia == 30000) {
+            document.write('Su medio de transporte es en COLECTIVO.');
+        } else if (distancia == 30001 || distancia == 100000) { 
+            document.write('Su medio de transporte es en AUTO.');
+        } else if (distancia == +100001)
+         { 
+            document.write ('Su medio de transporte es en AVION')
+        }
+    </script>
+
+</body>
+
+</html>
